@@ -17,6 +17,7 @@ int main(){
         count++;
         X+= pow(atof(textline.c_str()),2);
     }
+    
     cout << "Number of data = " << count << endl;
     cout << setprecision(3);
     cout << "Mean = " << sum/count << endl;
